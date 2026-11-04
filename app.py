@@ -27,20 +27,20 @@ st.markdown(f"""
     }}
     .main-title h1 {{ color: white; margin: 0; }}
     .main-title p {{ color: #D7E3F5; margin: 6px 0 0 0; }}
-div[data-testid="stMetric"] {
+div[data-testid="stMetric"] {{
         background: #FFFFFF !important;
         border: 1px solid #CBD5E1 !important;
         padding: 16px;
         border-radius: 12px;
         box-shadow: 0 2px 8px rgba(16,33,61,.08);
-    }
+    }}
 
     div[data-testid="stMetricLabel"],
-    div[data-testid="stMetricLabel"] p {
+    div[data-testid="stMetricLabel"] p{{
         color: #344054 !important;
         opacity: 1 !important;
         font-weight: 600 !important;
-    }
+    }}
 
     div[data-testid="stMetricValue"],
     div[data-testid="stMetricValue"] div {
