@@ -15,44 +15,62 @@ WHITE = "#FFFFFF"
 
 st.markdown(f"""
 <style>
-    .stApp {{ background-color: #F4F7FC; }}
-    [data-testid="stSidebar"] {{ background-color: {NAVY}; }}
-    [data-testid="stSidebar"] * {{ color: white !important; }}
-    .main-title {{
-        background: {NAVY};
-        color: white;
-        padding: 24px 28px;
-        border-radius: 14px;
-        margin-bottom: 22px;
-    }}
-    .main-title h1 {{ color: white; margin: 0; }}
-    .main-title p {{ color: #D7E3F5; margin: 6px 0 0 0; }}
+.stApp {{
+    background-color: #F4F7FC;
+}}
+
+[data-testid="stSidebar"] {{
+    background-color: #10213D;
+}}
+
+[data-testid="stSidebar"] * {{
+    color: white !important;
+}}
+
+.main-title {{
+    background: #10213D;
+    color: white;
+    padding: 24px 28px;
+    border-radius: 14px;
+    margin-bottom: 22px;
+}}
+
+.main-title h1 {{
+    color: white;
+    margin: 0;
+}}
+
+.main-title p {{
+    color: #D7E3F5;
+}}
+
 div[data-testid="stMetric"] {{
-        background: #FFFFFF !important;
-        border: 1px solid #CBD5E1 !important;
-        padding: 16px;
-        border-radius: 12px;
-        box-shadow: 0 2px 8px rgba(16,33,61,.08);
-    }}
+    background: #FFFFFF !important;
+    border: 1px solid #D0D9E8 !important;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(16,33,61,.08);
+}}
 
-    div[data-testid="stMetricLabel"],
-    div[data-testid="stMetricLabel"] p{{
-        color: #344054 !important;
-        opacity: 1 !important;
-        font-weight: 600 !important;
-    }}
+div[data-testid="stMetricLabel"] p {{
+    color: #344054 !important;
+    opacity: 1 !important;
+    font-weight: 600 !important;
+}}
 
-    div[data-testid="stMetricValue"],
-    div[data-testid="stMetricValue"] div {
-        color: #10213D !important;
-        opacity: 1 !important;
-        font-weight: 700 !important;
-    }
+div[data-testid="stMetricValue"] {{
+    color: #10213D !important;
+    opacity: 1 !important;
+    font-weight: 700 !important;
+}}
 
-    div[data-testid="stMetricDelta"] {
-        opacity: 1 !important;
-    }
-    h2, h3 {{ color: {NAVY}; }}
+div[data-testid="stMetricDelta"] {{
+    opacity: 1 !important;
+}}
+
+h2, h3 {{
+    color: #10213D;
+}}
 </style>
 """, unsafe_allow_html=True)
 
